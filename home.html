@@ -1,0 +1,1553 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,user-scalable=no"/>
+    <title>super market</title>
+    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet">
+  </head>
+
+
+
+  <body>
+    <header id="header-section">
+      <div class="container">
+        <div class="row">
+          <div class="col col-xl-2 col-lg-2 col-md-2">
+            <img class="logo-img" src="./assets/imgsec/1.png" />
+          </div>
+          <div class="col col-xl-2 col-lg-2 col-md-2 col-sm-2">
+            <div class="location">
+              <button class="locate-button" type="text" name="location">
+                <span class="locate-icon"
+                  ><i class="fa-solid fa-location-dot"></i
+                ></span>
+                <span class="locate-name">Your Location</span>
+                <span class="locate-arrow"
+                  ><i class="fa-solid fa-angle-down"></i
+                ></span>
+              </button>
+            </div>
+          </div>
+          <div class="col col-xl-5 col-lg-5 col-md-5 col-sm-5">
+            <div class="box">
+              <div class="search-box">
+                <input
+                  class="eneter-txt"
+                  type="text"
+                  placeholder="i'm searching for..."
+                />
+                <label class="srch-icon"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></label>
+              </div>
+            </div>
+          </div>
+          <div class="col col-xl-3 col-lg-3 col-md-3 col-sm-3">
+            <div class="navbar">
+              <ul class="icon-bar">
+                <li class="change"><a href=""><i class="fa-solid fa-phone-volume"></i></a></li>
+                <span class="border"></span>
+                <li class="change-1"><a href=""><i class="fa-regular fa-heart"></i></a></li>
+                <span class="border"></span>
+                <li class="change-2">
+                  <a href=""><i class="fa-solid fa-cart-shopping"></a></i>
+                </li>
+                <span class="border" id="match"></span>
+                <li class="change-3"><a href="file:///C:/Users/ELCOT/Desktop/project.vijay/formvalidate/index.html"><i class="fa-solid fa-user"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <div class="container">
+        <div class="row">
+          <div class="col col-xl-3 col-lg-3 col-md-3 col-sm-3">
+            <div class="sub-menu-wrap">
+              <button id="subbutton"  class="menu-button">
+                <i class="fa-solid fa-bars"></i>
+                <span class="all-category">All Categories</span>
+              </button>
+              <div class="sub-menu">
+                <a href="#" class="sub-menu-link">
+                  <img
+                    class="sub-image"
+                    src="./assets/imgsec/carat.svg"
+                    alt="carat"
+                  />
+                  <p class="sub-para">Vegetable & Foods</p>
+                  <span class="arrow"
+                    ><i class="fa-solid fa-caret-right"></i
+                  ></span>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                  <img
+                    class="sub-image"
+                    src="./assets/imgsec/cup.svg"
+                    alt="carat"
+                  />
+                  <p class="sub-para">Beverages</p>
+                  <span class="arrow"
+                    ><i class="fa-solid fa-caret-right"></i
+                  ></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                  <img
+                    class="sub-image"
+                    src="./assets/imgsec/meats.svg"
+                    alt="carat"
+                  />
+                  <p class="sub-para">Meats & Seafood</p>
+                  <span class="arrow"
+                    ><i class="fa-solid fa-caret-right"></i
+                  ></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                  <img
+                    class="sub-image"
+                    src="./assets/imgsec/breakfast.svg"
+                    alt="carat"
+                  />
+                  <p class="sub-para">Breakfast</p>
+                  <span class="arrow"
+                    ><i class="fa-solid fa-caret-right"></i
+                  ></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                  <img
+                    class="sub-image"
+                    src="./assets/imgsec/frozen.svg"
+                    alt="carat"
+                  />
+                  <p class="sub-para">Frozen food</p>
+                  <span class="arrow"
+                    ><i class="fa-solid fa-caret-right"></i
+                  ></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                  <img
+                    class="sub-image"
+                    src="./assets/imgsec/biscuit.svg"
+                    alt="carat"
+                  />
+                  <p class="sub-para">Biscuits</p>
+                  <span class="arrow"
+                    ><i class="fa-solid fa-caret-right"></i
+                  ></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                  <img
+                    class="sub-image"
+                    src="./assets/imgsec/grocery.svg"
+                    alt="carat"
+                  />
+                  <p class="sub-para">Grocery</p>
+                  <span class="arrow"
+                    ><i class="fa-solid fa-caret-right"></i
+                  ></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-xl-8 col-lg-8 col-md-8 col-sm-8">
+            <div class="nav-title">
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger">Home</button>
+
+                <button
+                  type="button"
+                  class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Shop</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger">Seller</button>
+
+                <button
+                  type="button"
+                  class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger">Shop</button>
+
+                <button
+                  type="button"
+                  class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Product</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger">Product</button>
+
+                <button
+                  type="button"
+                  class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger">Menu</button>
+                <button
+                  type="button"
+                  class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Seller</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger">Blog</button>
+                <button
+                  type="button"
+                  class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button class="btn btn-danger">Pages</button>
+                <button
+                  type="button"
+                  class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col col-xl-1 col-lg-1 col-md-1 col-sm-1">
+            <button class="power">
+              <i class="fa-solid fa-bolt"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="home-section">
+      <div class="container">
+        <div class="row">
+          <div class="col col-xl-8 col-lg-12 col-md-12 col-sm-12">
+            <div class="shopping">
+              <img
+                class="premium-pro"
+                src="./assets/imgsec/fruits.jpg"
+                alt="img"
+              />
+              <div class="content">
+                <p class="offer">
+                  Exclusive offer <button class="seller">30% off</button>
+                </p>
+
+                <b class="heading">STAY HOME & DELIVERD YOUR</b><br />
+                <h2 class="topic"><b>DAILLY NEEDS</b></h2>
+                <p class="letter">
+                  Vegetables contain many vitamins and minerals that are<br />
+                  good for your health.
+                </p>
+                <button class="shop">shop now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col col-xl-4 col-lg-12 col-md-12 col-sm-12">
+            <div class="row">
+              <div class="col col-xl-12 col-lg-6 col-md-6 col-sm-6">
+                <div class="card">
+                  <div class="image">
+                    <div class="nuts">
+                      <h3 class="perchantage">
+                        45%<span class="off">OFF</span>
+                      </h3>
+                      <h4 class="collection">Nuts collection</h4>
+                      <p class="description">
+                        We deliver organic<br />
+                        vegetables & fruits
+                      </p>
+                      <button class="shop-button">shop now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-xl-12 col-lg-6 col-md-6 col-sm-6">
+                <div class="card">
+                  <div class="orange">
+                    <h4 class="collection">
+                      Healthy Food<br /><span class="text">Organic Market</span>
+                    </h4>
+                    <p class="description">
+                      Start your daily <br />shopping with some
+                    </p>
+                    <button class="shop-button">shop now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+        
+        <section id="wraper">
+          <div class="container">
+            
+            <div class="owl-carousel owl-theme image-slider1">
+              <div class="item">
+                <img src=".//assets/imgsec/chicken.jpg" alt="chickern">
+                  <div class="argument">
+                  <div class="control">
+                   <h3 class="perchantage">45%<span class="off">OFF</span></h3>
+                     <p class="description">ORGANIC <br>MEAT PREPARED</p>  
+                   </div>
+                    <button class="enter">shop now</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/imgsec/egg.jpg" alt="egg">
+                <div class="argument">
+                <div class="control">
+                  <h3 class="perchantage">45%<span class="off">OFF</span></h3>
+                 <p class="description">HOT DEALS ON <br>NEW ITEMS</p>
+                 </div>  
+                  <button class="enter">shop now</button>
+                </div>
+              </div>
+               <div class="item">
+                <img src="./assets/imgsec/banana.jpg" alt="banana">
+                 <div class="argument">
+                <div class="control">
+                <h3 class="perchantage">45%<span class="off">OFF</span></h3>
+                  <p class="description">BUY MORE & <br>SAVE MORE!!</p>
+               </div>  
+               <button class="enter">shop now</button>
+                 </div>
+              </div>
+               <div class="item">
+                <img src="./assets/imgsec/mundhiri.jpg" alt="mundhiri">
+                <div class="argument">
+                  <div class="control">
+                  <h3 class="perchantage">45%<span class="off">OFF</span></h3>
+                  <p class="description">BUY MORE & <br>SAVE MORE!!</p>
+                 </div> 
+                  <button class="enter">shop now</button>
+                </div>
+              </div>
+               <div class="item">
+                <img src="./assets/imgsec/chicken.jpg" alt="chickern">
+                <div class="argument">
+                <div class="control">
+                
+                 <h3 class="perchantage">45%<span class="off">OFF</span></h3>
+                   <p class="description">ORGANIC <br>MEAT PREPARED</p>  
+                 </div>
+                  <button class="enter">shop now</button>
+                </div>
+              </div>
+               <div class="item">
+                <img src="./assets/imgsec/egg.jpg" alt="egg">
+                <div class="argument">
+                <div class="control">
+                  <h3 class="perchantage">45%<span class="off">OFF</span></h3>
+                 <p class="description">HOT DEALS ON <br>NEW ITEMS</p>
+                 </div>  
+                  <button class="enter">shop now</button>
+                </div>
+              </div>
+               <div class="item">
+                <img src="./assets/imgsec/mundhiri.jpg" alt="mundhiri">
+                <div class="argument">
+                  <div class="control">
+                  <h3 class="perchantage">45%<span class="off">OFF</span></h3>
+                  <p class="description">BUY MORE & <br>SAVE MORE!!</p>
+                 </div> 
+                  <button class="enter">shop now</button>
+                </div>
+              </div>
+               <div class="item">
+                <img src="./assets/imgsec/banana.jpg" alt="banana">
+                 <div class="argument">
+                <div class="control">
+                <h3 class="perchantage">45%<span class="off">OFF</span></h3>
+                  <p class="description">BUY MORE & <br>SAVE MORE!!</p>
+               </div>  
+               <button class="enter">shop now</button>
+                 </div>
+              </div>
+               <div class="item">
+                <img src="./assets/imgsec/egg.jpg" alt="egg">
+                <div class="argument">
+                <div class="control">
+                
+                  <h3 class="perchantage">45%<span class="off">OFF</span></h3>
+                 <p class="description">HOT DEALS ON <br>NEW ITEMS</p>
+                 </div>  
+                  <button class="enter">shop now</button>
+                </div>
+              </div>
+               <div class="item">
+                <img src="./assets/imgsec/mundhiri.jpg" alt="mundhiri">
+                <div class="argument">
+                  <div class="control">
+                  <h3 class="perchantage">45%<span class="off">OFF</span></h3>
+                  <p class="description">BUY MORE & <br>SAVE MORE!!</p>
+                 </div> 
+                  <button class="enter">shop now</button>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </section>
+        
+
+        <section id="categories-section">
+          <div class="container">
+            <div class="row">
+              <div class="col col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-bar">
+                  <h3 class="list-menu">Category</h3>
+                  <ul>
+                    <li>
+                      <div class="menu-image">
+                        <img class="catgori-img" src="./assets/imgsec/carat.svg" alt="png">
+                        <h5 class="size"><a href="">Vegetables & Fruit</a></h5>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="menu-image">
+                        <img class="catgori-img" src="./assets/imgsec/meats.svg" alt="png">
+                        <h5 class="size"><a href="">Meats & Seafood</a></h5>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="menu-image">
+                        <img class="catgori-img" src="./assets/imgsec/grocery.svg" alt="png">
+                        <h5 class="size"><a href="">Grocery & Staples</a></h5>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="menu-image">
+                        <img class="catgori-img" src="./assets/imgsec/frozen.svg" alt="png">
+                        <h5 class="size"><a href="">Frozen Foods</a></h5>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="menu-image">
+                        <img class="catgori-img" src="./assets/imgsec/cup.svg" alt="png">
+                        <h5 class="size"><a href="">Beverages</a></h5>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="menu-image">
+                        <img class="catgori-img" src="./assets/imgsec/breakfast.svg" alt="png">
+                        <h5 class="size"><a href="">Breakfast & Dairy</a></h5>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="menu-image">
+                        <img class="catgori-img" src="./assets/imgsec/biscuit.svg" alt="png">
+                        <h5 class="size"><a href="">Biscuits & Snacks</a></h5>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="menu-image">
+                        <img class="catgori-img" src="./assets/imgsec/drink.svg" alt="png">
+                        <h5 class="size"><a href="">Wines & Alcohol Drinks</a></h5>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="menu-image">
+                        <img class="catgori-img" src="./assets/imgsec/milk.svg" alt="png">
+                        <h5 class="size"><a href="">Milk & Dairies</a></h5>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="menu-image">
+                        <img class="catgori-img" src="./assets/imgsec/pet.svg" alt="png">
+                        <h5 class="size"><a href="">Pet Foods</a></h5>
+                      </div>
+                    </li>
+                  
+                  <hr>
+                  <li>
+                    <div class="menu-image">
+                       <h5 class="size"><a href="">Value of the Day</a></h5>
+                       </div>
+                  </li>
+                  <li>
+                    <div class="menu-image">
+                      <h5 class="size"><a href="">Top 50 Offers</a></h5>
+                  </div>
+                  </li>
+                  <li>
+                    <div class="menu-image">
+                     <h5 class="size"><a href="">New Arrivals</a></h5>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              </div>
+              <div class="col col-xl-8 col-lg-12 col-md-12 col-sm-12"> 
+          <div class="line">
+                  <h2 class="today-text">Top Save Today</h2>
+                  <span class="flower-icon"><i class="fa-brands fa-pagelines"></i></span>
+                  <p class="writer">Don't miss this opportunity at a special discount just for this week.</p>
+                </div>
+                <div class="title-header">
+                  <div class="sales-product">
+                   <div class="product">
+                   <div class="row">
+                     <div class="col col-lg-4 col-md-4 col-sm-4">
+                       <div class="shape">
+                      <div class="biscuit-img">
+                        <img class="concept" src="./assets/imgsec/milkbiscuit.png" alt="txt">
+                      </div>
+                      <div class="biscuit-content">
+                          <h6 class="cookies">Fantasy crunchy choco chip <br>
+                          cookies</h6>                    
+                      <h5 class="dollor"><span class="number">$26.69</span><del>28.56</del></h5>
+                      <div class="rating"><ul class="rating-order">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <h6 class="rating-word">In Stock</h6>
+                      </ul></div>
+                      <button class="add"><span class="minus-icon"><i class="fa fa-minus-circle" aria-hidden="true"></i></span>
+                        <span class="add-text">ADD</span>
+                        <span class="plus-icon"><i class="fa-solid fa-plus"></i></span></button>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col col-lg-4 col-md-4 col-sm-4">
+                    <div class="shape">
+                      <div class="biscuit-img">
+                        <img class="concept" src="./assets/imgsec/din.png" alt="txt">
+                      </div>
+                      <div class="biscuit-content">
+                          <h6 class="cookies">Fantasy crunchy choco chip <br>
+                          cookies</h6>
+                      <h5 class="dollor"><span class="number">$26.69</span><del>28.56</del></h5>
+                      <div class="rating"><ul class="rating-order">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <h6 class="rating-word">In Stock</h6>
+                      </ul></div>
+                      <button class="add"><span class="minus-icon"><i class="fa fa-minus-circle" aria-hidden="true"></i></span>
+                        <span class="add-text">ADD</span>
+                        <span class="plus-icon"><i class="fa-solid fa-plus"></i></span></button>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                      <div class="shape-3">
+                        
+                      <div class="biscuit-img">
+                        <img class="concept" src="./assets/imgsec/chips (1).png" alt="txt">
+                      </div>
+                      <div class="biscuit-content">
+                          <h6 class="cookies">Fantasy crunchy choco chip <br>
+                          cookies</h6>                     
+                      <h5 class="dollor"><span class="number">$26.69</span><del>28.56</del></h5>
+                      <div class="rating"><ul class="rating-order">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <h6 class="rating-word">In Stock</h6>
+                      </ul></div>
+                      <button class="add"><span class="minus-icon"><i class="fa fa-minus-circle" aria-hidden="true"></i></span>
+                        <span class="add-text">ADD</span>
+                        <span class="plus-icon"><i class="fa-solid fa-plus"></i></span></button>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="text-area">
+                      <div class="row ">
+                        <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                          <div class="shape-4">
+                          <div class="biscuit-img">
+                             <img class="concept" src="./assets/imgsec/chickenpics.png" alt="txt">
+                          </div>
+                          <div class="biscuit-content">
+                              <h6 class="cookies">Fantasy crunchy choco chip <br>
+                              cookies</h6>
+                          <h5 class="dollor"><span class="number">$26.69</span><del>28.56</del></h5>
+                          <div class="rating"><ul class="rating-order">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <h6 class="rating-word">In Stock</h6>
+                          </ul></div>
+                          <button class="add"><span class="minus-icon"><i class="fa fa-minus-circle" aria-hidden="true"></i></span>
+                            <span class="add-text">ADD</span>
+                            <span class="plus-icon"><i class="fa-solid fa-plus"></i></span></button>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                          <div class="shape-5">
+                          <div class="biscuit-img">
+                            <img class="concept" src="./assets/imgsec/pulses.png" alt="txt">
+                          </div>
+                          <div class="biscuit-content">
+                              <h6 class="cookies">Fantasy crunchy choco chip <br>
+                              cookies</h6>
+                          <h5 class="dollor"><span class="number">$26.69</span><del>28.56</del></h5>
+                          <div class="rating"><ul class="rating-order">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <h6 class="rating-word">In Stock</h6>
+                          </ul></div>
+                          <button class="add"><span class="minus-icon"><i class="fa fa-minus-circle" aria-hidden="true"></i></span>
+                            <span class="add-text">ADD</span>
+                            <span class="plus-icon"><i class="fa-solid fa-plus"></i></span></button>
+                          </div>
+                        </div>
+                        </div>
+                        <div class=" col col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                          <div class="shape-6">
+                          <div class="biscuit-img">
+                            <img class="concept" src="./assets/imgsec/sevs.png" alt="txt">
+                          </div>
+                          <div class="biscuit-content">
+                              <h6 class="cookies">Fantasy crunchy choco chip <br>
+                              cookies</h6>
+                          <h5 class="dollor"><span class="number">$26.69</span><del>28.56</del></h5>
+                          
+                          <div class="rating"><ul class="rating-order">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <h6 class="rating-word">In Stock</h6>
+                          </ul></div>
+                          <button class="add"><span class="minus-icon"><i class="fa fa-minus-circle" aria-hidden="true"></i></span>
+                            <span class="add-text">ADD</span>
+                            <span class="plus-icon"><i class="fa-solid fa-plus"></i></span></button>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </section>
+
+
+        
+           
+
+
+
+
+
+
+
+
+      <section id="wraper">
+        <div class="container">
+          <div class="slide-line">
+
+     
+                <div class="line-center">
+                  <h2 class="top-text">Top Save Today</h2>
+                  <span class="flower-imag"><i class="fa-brands fa-pagelines"></i></span>
+                  <p class="para-writter">Don't miss this opportunity at a special discount just for this week.</p>
+                </div>
+           <div class="row">
+            
+              <div class="owl-carousel owl-theme image-slider-data">
+                <div class="item-img">
+                  <img class="assets" src="./assets/imgsec/biscuit.svg" alt="...">
+                  <div class="item-content">
+                    <h5 class="snacks">Biscuits & Snacks</h5>                     
+                  </div>
+                </div>
+                <div class="item-img">
+                  <img class="assets" src="./assets/imgsec/frozen.svg" alt="...">
+                  <div class="item-content">
+                    <h5 class="snacks">Breakfast & Dairy</h5>                     
+                  </div>
+                </div>
+                 <div class="item-img">
+                  <img class="assets" src="./assets/imgsec/milk.svg" alt="...">
+                      <div class="item-content">
+                        <h5 class="snacks">Biscuits & Snacks</h5>                     
+                      </div>
+                </div>
+                 <div class="item-img">
+                  <img class="assets" src="./assets/imgsec/drink.svg" alt="...">
+                  <div class="item-content">
+                    <h5 class="snacks">Breakfast & Dairy</h5>                     
+                  </div>
+                </div>
+                 <div class="item-img">
+                  <img class="assets" src="./assets/imgsec/carat.svg" alt="...">
+                  <div class="item-content">
+                    <h5 class="snacks">Biscuits & Snacks</h5>                     
+                  </div>
+                </div>
+                 <div class="item-img">
+                  <img class="assets" src="./assets/imgsec/drink.svg" alt="...">
+                  <div class="item-content">
+                    <h5 class="snacks">Breakfast & Dairy</h5>                     
+                  </div>
+                </div>
+                 <div class="item-img">
+                  <img class="assets" src="./assets/imgsec/grocery.svg" alt="...">
+                  <div class="item-content">
+                    <h5 class="snacks">Biscuits & Snacks</h5>                     
+                  </div>
+                </div>
+                 <div class="item-img">
+                  <img class="assets" src="./assets/imgsec/cup.svg" alt="...">
+              <div class="item-content">
+                <h5 class="snacks">Breakfast & Dairy</h5>                     
+              </div>
+                </div>
+                 <div class="item-img">
+                  <img class="assets" src="./assets/imgsec/meats.svg" alt="...">
+                  <div class="item-content">
+                    <h5 class="snacks">Biscuits & Snacks</h5>                     
+                  </div>
+                </div>
+                 <div class="item-img">
+                  <img class="assets" src="./assets/imgsec/carat.svg" alt="...">
+                  <div class="item-content">
+                    <h5 class="snacks">Breakfast & Dairy</h5>                     
+                  </div>
+                </div>
+              </div>
+          
+       
+         </div>
+         </div>
+        </section>
+
+
+
+
+
+
+
+      
+        
+        <section id="fish-section">
+          <div class="container">
+            <div class="row">
+              <div class="col col-lg-4 col-md-12 col-sm-12">
+                <div class="fish-image">
+                  <img class="fish" src="./assets/imgsec/fish.jpg" alt="fish">
+                  <div class="fish-offer">
+                    <div>
+                      <h6 class="sea">Seafood</h6>
+                      <h2 class="freshes">FRESHES<span class="extra"> PRODUCTS</span></h2>
+                      <h5 class="hour">every hour</h5>
+                      <button class="buy">Shop Now</button>
+                    </div>
+                  </div>
+              </div>
+              </div>
+
+
+              <div class="col col-xl-8 col-lg-12 col-md-12 col-sm-12">
+                <div class="row">
+                  <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    
+                      <div class="chickenpics">
+                        <img class="legpics" src="./assets/imgsec/legpics.jpg" alt="chicken">                     
+                      <div class="emrittes">
+                        <div >
+                        <h3 class="strength">50%<span class="on">Offer</span></h3>
+                        <h4 class="center">Testy Mushrooms</h4>                      
+                        <button class="offer-botton">shop now</button>              
+                        </div>
+                      </div>
+                      </div>
+                   
+                  </div>
+
+
+
+
+
+                  
+                  <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="chickenpics">
+                      <img class="legpics" src="./assets/imgsec/mushrom.jpg" alt="mush">                     
+                    <div class="emrittes">
+                      <div >
+                      <h3 class="strength">50%<span class="on">Offer</span></h3>
+                      <h4 class="center">Fresh MEAT</h4>                      
+                      <button class="offer-botton">shop now</button>              
+                      </div>
+                    </div>
+                    </div>
+                                   
+                  </div>
+                </div>
+               
+
+                <div class="line">
+                  <h2 class="save">Top Save Today</h2>
+                  <span class="flower-icon"><i class="fa-brands fa-pagelines"></i></span>
+                  <p class="writer">Don't miss th
+                    is opportunity at a special discount just for this week.</p>
+                </div>
+                <div class="title">
+                  <div class="sales-product">
+                   <div class="product">
+                   <div class="row">
+                     <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                       <div class="shape">
+                      <div class="biscuit">
+                        <img class="concept" src="./assets/imgsec/milkbiscuit.png" alt="txt">
+                      </div>
+                          <h6 class="cookies">Fantasy crunchy choco chip <br>
+                          cookies</h6>                    
+                      <h5 class="dollor"><span class="number">$26.69</span><del>28.56</del></h5>
+                      <div class="rating"><ul class="rating-order">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <h6 class="rating-word">In Stock</h6>
+                      </ul></div>
+                      <button class="add"><span class="minus-icon"><i class="fa fa-minus-circle" aria-hidden="true"></i></span>
+                        <span class="add-text">ADD</span>
+                        <span class="plus-icon"><i class="fa-solid fa-plus"></i></span></button>
+                    </div>
+                  </div>
+                    <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="shape">
+                      <div class="biscuit">
+                        <img class="concept" src="./assets/imgsec/din.png" alt="txt">
+                      </div>
+                          <h6 class="cookies">Fantasy crunchy choco chip <br>
+                          cookies</h6>
+                      <h5 class="dollor"><span class="number">$26.69</span><del>28.56</del></h5>
+                      <div class="rating"><ul class="rating-order">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <h6 class="rating-word">In Stock</h6>
+                      </ul></div>
+                      <button class="add"><span class="minus-icon"><i class="fa fa-minus-circle" aria-hidden="true"></i></span>
+                        <span class="add-text">ADD</span>
+                        <span class="plus-icon"><i class="fa-solid fa-plus"></i></span></button>
+                    </div>
+                    </div>
+                    <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                      <div class="shape-3">
+                      <div class="biscuit">
+                        <img class="concept" src="./assets/imgsec/chips (1).png" alt="txt">
+                      </div>
+                          <h6 class="cookies">Fantasy crunchy choco chip <br>
+                          cookies</h6>                     
+                      <h5 class="dollor"><span class="number">$26.69</span><del>28.56</del></h5>
+                      <div class="rating"><ul class="rating-order">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <h6 class="rating-word">In Stock</h6>
+                      </ul></div>
+                      <button class="add"><span class="minus-icon"><i class="fa fa-minus-circle" aria-hidden="true"></i></span>
+                        <span class="add-text">ADD</span>
+                        <span class="plus-icon"><i class="fa-solid fa-plus"></i></span></button>
+                    </div>
+                    </div>
+              </div>
+              
+            </div>
+            
+          </div>
+          
+        </section>
+
+
+
+
+          <section id="vegtable">
+          <div class="container">
+            <div class="row">
+              <div class="col col-lg-4 col-md-12 col-sm-12">
+                <div class="fish-image">
+                  <img class="fish" src="./assets/imgsec/veg.jpg" alt="fish">
+                  <div class="fish-offer">
+                    <div>
+                      <h6 class="sea">Organic</h6>
+                      <h2 class="freshes">FRESH<span class="extra"> VEGETABLES</span></h2>
+                      <h5 class="super-offer">Super Offer to 50% Off</h5>
+                      <button class="buy1">Shop Now</button>
+                    </div>
+                  </div>
+               </div>
+             </div>
+
+             
+             
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="col col-xl-8 col-lg-12 col-md-12 col-sm-12">
+              <div class="row">
+                <div class="col col-xl-12 col-lg-12 col-md-12">
+                  <div class="cashback">
+                    <img class="green" src="./assets/imgsec/green.jpg" alt="green">
+                  </div>
+                  <div class="codeback">
+                    <h3 class="cash-offer">Get $3 Cashback! Min Order of $30</h3>
+                    <h6 class="dot-border">use code:GROCERY1920</h6>
+                  </div>
+
+                </div>
+
+              </div>
+            <div class="orange-offer">
+              <div class="row">
+                <div class="col col-xxl-8 col-xl-8 col-md-7">
+                  <div class="orange-juice">
+                   
+                  
+                  <div class="demostrate">
+                    <h3 class="space-center">Get Ready To<span class="moving">
+                      TAKE ON THE DAY!</span></h3>
+                    <p class="content-write">In publishing and graphic design, Lorem ipsum is a <br>placeholder text commonly used to demonstrate.</p>
+                    <button class="submit">Shop Now</button>
+                  </div>
+                  </div>
+                </div>
+
+              
+            
+
+
+
+           
+              
+                <div class="col col-xxl-4 col-xl-4 col-md-5">
+                  <div class="bottle-juice">
+                    
+                 
+                  <div class="center-body">
+                    <h2 class="low-offer">20% Off</h2>
+                    <h3 class="sumary">SUMMRY<span class="align-change">
+                      Product</span></h3>                  
+                  </div>
+                  </div>
+                  
+                </div>
+              
+              </div>
+            </div> 
+
+     
+            <div class="nxt line">
+              <div class="line">
+                <h2 class="save">Our Best Seller</h2>
+                <span class="flower-icon"><i class="fa-brands fa-pagelines"></i></span>
+                <p class="writer">A virtual assistant collects the products from your list.</p>
+              </div>
+            </div>
+            
+
+            <div class="whole-product">
+              <div class="row">
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                  <div class="border-design">
+                    <ul class="entroll">
+                      <li>
+                        <div class="apple-img">
+                          <img class="class-img" src="./assets/imgsec/11.png">
+                        
+                        <div class="result">
+                          <div>
+                            <h6 class="target">Tuffets whole</h6>
+                            <span class="value">450G</span>
+                            <h6 class="money">$70.00</h6>
+                          </div>
+                        </div>
+                        </div>
+                      </li>
+      
+      
+                      <hr>
+                        <li>
+                          <div class="apple-img">
+                            <img class="class-img" src="./assets/imgsec/potato.png">
+                          
+                          <div class="result">
+                            <div>
+                              <h6 class="target">Potato toned</h6>
+                              <span class="value">450G</span>
+                              <h6 class="money">$70.00</h6>
+                            </div>
+                          </div>
+                          </div>
+                        </li>
+      
+                        <hr>
+                          <li>
+                            <div class="apple-img">
+                              <img class="class-img" src="./assets/imgsec/chilli.png">
+                            
+                            <div class="result">
+                              <div>
+                                <h6 class="target">Green chilli</h6>
+                                <span class="value">450G</span>
+                                <h6 class="money">$70.00</h6>
+                              </div>
+                            </div>
+                            </div>
+                          </li>
+      
+      
+                            <hr>
+                            <li>
+                              <div class="apple-img">
+                                <img class="class-img" src="./assets/imgsec/bun.png">
+                              
+                              <div class="result">
+                                <div>
+                                  <h6 class="target">Muffets burger</h6>
+                                  <span class="value">450G</span>
+                                  <h6 class="money">$70.00</h6>
+                                </div>
+                              </div>
+                              </div>
+                           </li>
+                         </ul>
+
+                        </div>
+
+
+                      </div>
+                      <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                        <div class="border-design">
+                          <ul class="entroll">
+                            <li>
+                              <div class="apple-img">
+                                <img class="class-img" src="./assets/imgsec/britinia.png">
+                              
+                              <div class="result">
+                                <div>
+                                  <h6 class="target">Tuffets whole</h6>
+                                  <span class="value">450G</span>
+                                  <h6 class="money">$70.00</h6>
+                                </div>
+                              </div>
+                              </div>
+                            </li>
+            
+            
+                            <hr>
+                              <li>
+                                <div class="apple-img">
+                                  <img class="class-img" src="./assets/imgsec/toned milk.png">
+                                
+                                <div class="result">
+                                  <div>
+                                    <h6 class="target">Potato toned</h6>
+                                    <span class="value">450G</span>
+                                    <h6 class="money">$70.00</h6>
+                                  </div>
+                                </div>
+                                </div>
+                              </li>
+            
+                              <hr>
+                                <li>
+                                  <div class="apple-img">
+                                    <img class="class-img" src="./assets/imgsec/tomato.png">
+                                  
+                                  <div class="result">
+                                    <div>
+                                      <h6 class="target">Green chilli</h6>
+                                      <span class="value">450G</span>
+                                      <h6 class="money">$70.00</h6>
+                                    </div>
+                                  </div>
+                                  </div>
+                                </li>
+            
+            
+                                  <hr>
+                                  <li>
+                                    <div class="apple-img">
+                                      <img class="class-img" src="./assets/imgsec/jam.png">
+                                    
+                                    <div class="result">
+                                      <div>
+                                        <h6 class="target">Muffets burger</h6>
+                                        <span class="value">450G</span>
+                                        <h6 class="money">$70.00</h6>
+                                      </div>
+                                    </div>
+                                    </div>
+                                 </li>
+                               </ul>
+      
+                              </div>
+                        
+                            
+
+                      </div>
+
+                         <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                          <div class="border-design">
+                            <ul class="entroll">
+                              <li>
+                                <div class="apple-img">
+                                  <img class="class-img" src="./assets/imgsec/refined.png">
+                                
+                                <div class="result">
+                                  <div>
+                                    <h6 class="target">Tuffets whole</h6>
+                                    <span class="value">450G</span>
+                                    <h6 class="money">$70.00</h6>
+                                  </div>
+                                </div>
+                                </div>
+                              </li>
+              
+              
+                              <hr>
+                                <li>
+                                  <div class="apple-img">
+                                    <img class="class-img" src="./assets/imgsec/life raw.png">
+                                  
+                                  <div class="result">
+                                    <div>
+                                      <h6 class="target">Potato toned</h6>
+                                      <span class="value">450G</span>
+                                      <h6 class="money">$70.00</h6>
+                                    </div>
+                                  </div>
+                                  </div>
+                                </li>
+              
+                                <hr>
+                                  <li>
+                                    <div class="apple-img">
+                                      <img class="class-img" src="./assets/imgsec/farms.png">
+                                    
+                                    <div class="result">
+                                      <div>
+                                        <h6 class="target">Green chilli</h6>
+                                        <span class="value">450G</span>
+                                        <h6 class="money">$70.00</h6>
+                                      </div>
+                                    </div>
+                                    </div>
+                                  </li>
+              
+              
+                                    <hr>
+                                    <li>
+                                      <div class="apple-img">
+                                        <img class="class-img" src="./assets/imgsec/mango drink.png">
+                                      
+                                      <div class="result">
+                                        <div>
+                                          <h6 class="target">Muffets burger</h6>
+                                          <span class="value">450G</span>
+                                          <h6 class="money">$70.00</h6>
+                                        </div>
+                                      </div>
+                                      </div>
+                                   </li>
+                            </ul>
+        
+                          </div>
+        
+        
+                        </div>
+                  
+
+                         </div>
+
+                          
+                            
+
+                        </div>
+                    </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+          </section>
+               
+
+
+
+
+            <section id="trend-section">
+            <div class="container">
+                <div class="row">
+                  <div class="col col-lg-4 col-md-12 col-sm-12">
+                <div class="trend-product">
+                  <h6 class="product-heading">Trending Products</h6>
+                  <ul class="list-order">
+                    <li>
+                      <div class="drump">
+                        <img class="trend-img" src="./assets/imgsec/drump.png">
+                      
+                      <div class="explain">
+                        <div>
+                          <h6 class="premium">Meatigo Premium Goat...</h6>
+                          <span class="gram">450G</span>
+                          <h6 class="ruppes">$70.00</h6>
+                        </div>
+                      </div>
+                      </div>
+                    </li>
+    
+    
+                    <hr>
+                      <li>
+                        <div class="drump">
+                          <img class="trend-img" src="./assets/imgsec/apple.png">
+                        
+                        <div class="explain">
+                          <div>
+                            <h6 class="premium">Apple Premium imported.</h6>
+                            <span class="gram">450G</span>
+                            <h6 class="ruppes">$70.00</h6>
+                          </div>
+                        </div>
+                        </div>
+                      </li>
+    
+                      <hr>
+                        <li>
+                          <div class="drump">
+                            <img class="trend-img" src="./assets/imgsec/sweet.png">
+                          
+                          <div class="explain">
+                            <div>
+                              <h6 class="premium">Good Life walnut Kernels</h6>
+                              <span class="gram">450G</span>
+                              <h6 class="ruppes">$70.00</h6>
+                            </div>
+                          </div>
+                          </div>
+                        </li>
+    
+    
+                          <hr>
+                          <li>
+                            <div class="drump">
+                              <img class="trend-img" src="./assets/imgsec/bag.png">
+                            
+                            <div class="explain">
+                              <div>
+                                <h6 class="premium">Dates Medjoul Premium..</h6>
+                                <span class="gram">450G</span>
+                                <h6 class="ruppes">$70.00</h6>
+                              </div>
+                            </div>
+                            </div>
+                         </li>
+                  </ul>
+                </div>
+              </div> 
+     <div class="col col-xl-8 col-lg-12 col-md-12 col-sm-12">
+                <div class="line">
+                  <h2 class="save">Featured Blog</h2>
+                  <span class="flower-icon"><i class="fa-brands fa-pagelines"></i></span>
+                  <p class="writer">
+                    A virtual assistant collects the products from your list</p>
+                </div>
+                <div class="row">
+                <div class=" col-xl-6 col-lg-4 col-md-4 col-sm-4">
+                  <div class="shop-product">
+                    <div class="benefit-food">
+                      <div class="future-img">
+                        <img class="common-img" src="./assets/imgsec/badam.jpg" alt="badam">
+                        <div>
+                          <h6 class="dmy">20 March,2023</h6>
+                          <h5 class="tips">Fresh Vegetable online</h5>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col col-xl-6 col-lg-4 col-md-4 col-sm-4">
+                  <div class="shop-product">
+                    <div class="benefit-food">
+                      <div class="future-img">
+                        <img class="common-img" src="./assets/imgsec/vegeta.jpg" alt="badam">
+                        <div>
+                          <h6 class="dmy">20 March,2023</h6>
+                          <h5 class="tips">Fresh Vegetable online</h5>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col col-xl-6 col-lg-4 col-md-4 col-sm-4">
+                  <div class="stick-entrol">
+                    <div class="benefit-food">
+                      <div class="future-img">
+                        <img class="common-img" src="./assets/imgsec/sticky.jpg" alt="badam">
+                        <div>
+                          <h6 class="dmy">20 March,2023</h6>
+                          <h5 class="tips">Fresh Vegetable online</h5>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>   
+              </div>
+            </div>   
+            </div>
+          </div>
+             </section>
+
+
+
+
+
+        <section id="customer-section">
+          <div class="container">
+            <div class="row">
+              <div class="col col-xl-4 col-lg-12 col-md-12 col-sm-12">
+                <div class="comment">
+                  <div class="follow">
+                    <h6 class="fitness">Customer Comment</h6>
+                  </div>
+                  <div class="opinoin">
+                    <h5 class="about">We Care About Our Customer Experience</h5>
+                    <p class="about-deatil">In publishing and graphic design, Lorem ipsum is a placeholder text 
+                      commonly used to demonstrate the visual form of a document or a typeface without relying 
+                      on meaningful content.</p> 
+
+    </div>
+                  <div class="about-img">
+                    <div class="img-pic">
+                      <img class="reporter" src="./assets/imgsec/vijay.jpg" alt="vijay">
+                    </div>
+                    <div class="reporter-detail">
+                      <h5 class="about-name">VIJAYA KUMAR</h5>
+                      <h6 class="developer">web developer</h6>
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+
+              
+              <div class="col col-xl-8 col-lg-12 col-md-12 col-sm-12">
+                <div class="row">
+                  <div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="summer-offer">
+                      <div class="summer-img">
+                       
+                        <div class="summer-book">
+                          <div>
+                            <h6 class="summer">SUMMER</h6>
+                            <h2 class="summer-detail">VEGETABLE</h2>
+                            <h5 class="summer-save">Save up to 5% OFF</h5>
+                            <button class="credit">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+        <section id="footer-section">
+          <div class="container">
+          <div class="row">
+            <div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12">
+              <div class="new-letter">
+                <div class="letter-img">
+                 
+                  <div class="jion-letter">
+                    <div class="footer-detail">
+                      <h1 class="discount">Join Our Newsletter And Get...</h1>
+                      <h1 class="first-order">$20 discount for your first order</h1>
+                      <div class="input-box">
+                        <input class="email" type="Email" id="exampleformcontrolInput1" placeholder="Enter your email...">
+                      
+
+                      
+                      <button class="Newstyle">SUBSCRIBE</button>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>  
+
+
+
+
+
+
+
+
+        
+   
+
+    
+  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js">
+        </script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+           </script> 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    
+    <script src="./home.js"></script>
+        
+   
+  </body>
+</html>
